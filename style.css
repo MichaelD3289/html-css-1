@@ -1,0 +1,109 @@
+* {
+  font-family: 'Amatic SC', cursive;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.tarantula-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 20px;
+  height: 275px;
+  border: medium solid black;
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px darkslategray;
+}
+
+.tarantula-img{
+  width: 20%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 6px darkslategray;
+ }
+
+ .imgOne {
+  background-image: url(https://uploads.documents.cimpress.io/v1/uploads/a86a9044-7631-4dd4-a833-f2f953cb9930~110/original?tenant=vbu-digital);
+ }
+
+ .imgTwo {
+   background-image: url(https://spideridentifications.com/wp-content/uploads/2019/02/Salmon-Pink.jpg);
+ }
+
+ .imgThree {
+  background-image: url(https://spideridentifications.com/wp-content/uploads/2019/05/Heteroscodra-Maculata-Size.jpg);
+ }
+
+.imgFour {
+  background-image: url(https://assets.bigcartel.com/product_images/293405268/Pterinopelma-sazimai-.jpg?auto=format&fit=max&h=1200&w=1200);
+}
+
+ .tarantula-img:hover {
+   transform: scale(1.4,1.4);
+   box-shadow: 3px 3px 10px 0px black;
+ }
+
+.tarantula-fact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 100%;
+}
+
+.add-info-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.right-info, .left-info, .middle-info {
+  width: 33%;
+  text-align: center;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.sig-venom {
+  color: darkred;
+  text-decoration: underline;
+  text-shadow: 1px 1px 5px darkred;
+}
+
+.non-sig-venom {
+  color: darkblue;
+  text-shadow: 1px 1px 5px darkblue;
+}
+
+.bold {
+  font-weight: 700;
+  text-shadow: 1px 1px 5px darkslategray;
+}
+
+.tarantula-cname {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 1px 2px 5px darkslategray;
+}
+
+.tarantula-sname {
+  font-size: 30px;
+  text-shadow: 1px 1px 2px darkslategray;
+}
