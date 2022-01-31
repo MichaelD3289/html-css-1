@@ -17,12 +17,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 20px 20px;
+  margin: 40px 20px;
   height: 300px;
   border: medium solid black;
   border-radius: 20px;
   box-shadow: 4px 4px 6px darkslategray;
   padding: 10px;
+  min-width: 1500px
 }
 
 .tarantula-img{
@@ -59,6 +60,10 @@
   background-image: url(https://live.staticflickr.com/7146/6528090769_c8817397e4_b.jpg);
 }
 
+.imgSeven {
+  background-image: url(https://i.ytimg.com/vi/RVr1FZJEL0I/hqdefault.jpg);
+}
+
  .tarantula-img:hover {
    transform: scale(1.4,1.4);
    box-shadow: 3px 3px 10px 0px black;
@@ -81,13 +86,16 @@
 }
 
 .right-info, .left-info, .middle-info {
-  width: 33%;
   text-align: center;
   height: 175px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   font-size: 20px;
+}
+
+.right-info {
+  width: 50%;
 }
 
 .sig-venom {
@@ -99,6 +107,11 @@
 .non-sig-venom {
   color: darkblue;
   text-shadow: 1px 1px 5px darkblue;
+}
+
+.moderate-venom {
+  color: orangered;
+  text-shadow: 1px 1px 5px orangered;
 }
 
 .bold {
